@@ -2,8 +2,8 @@ import React from 'react';
 
 // --- 1. Import your local images from the assets folder ---
 import teamMember1 from '../assets/images/CEO.jpg';
-import teamMember2 from '../assets/images/chiefArchitect.jpg';
-import teamMember3 from '../assets/images/chiefArchitect2.jpg';
+import teamMember2 from '../assets/images/chiefarchitect.jpg';
+import teamMember3 from '../assets/images/chiefarchitect2.jpg';
 
 
 // A reusable component for each team member card
