@@ -14,7 +14,7 @@ import homeImage2 from '../assets/images/slider3.jpg';
 import sunlitImage from '../assets/images/sunlit-estates.jpg';
 import whiteOakImage from '../assets/images/white-oak-homes.jpg';
 import graphiteImage from '../assets/images/graphite-homes.jpg';
-import landsImage from '../assets/images/premium-lands.jpg';
+import landsImage from '../assets/images/premiumlands.jpg';
 
 const Home = () => {
     // --- MODIFIED: Updated slides array ---
