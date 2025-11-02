@@ -52,16 +52,16 @@ const About = () => {
 
   const coreValues = [
     {
-      title: "Integrity",
-      content: "We operate with transparency and honesty in every transaction, ensuring our clients have complete trust and confidence in our processes."
+      title: "Honesty & Transparency",
+      content: "We believe that trust is earned. We operate with open communication and unwavering ethical standards, making sure you have full confidence in our advice and processes from start to finish."
     },
     {
-      title: "Excellence",
-      content: "We strive for the highest quality in our properties and services, paying meticulous attention to detail to exceed expectations."
+      title: "Commitment to Quality",
+      content: "We don't just meet standards—we set them. Our passion for quality drives us to deliver the best properties and services, with an unyielding attention to detail that ensures superior results."
     },
     {
-      title: "Client-First",
-      content: "Our clients' needs and goals are at the forefront of everything we do. We are dedicated to providing personalized and successful outcomes."
+      title: "Dedicated Partnership",
+      content: "More than a transaction, it's a true partnership. We take the time to deeply understand your unique needs and commit to being a proactive, supportive guide focused solely on your success."
     }
   ];
 

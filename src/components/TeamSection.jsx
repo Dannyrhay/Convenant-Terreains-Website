@@ -3,7 +3,7 @@ import React from 'react';
 // --- 1. Import your local images from the assets folder ---
 import teamMember1 from '../assets/images/CEO.jpg';
 import teamMember2 from '../assets/images/e1.jpg';
-import teamMember3 from '../assets/images/e2.jpg';
+import teamMember3 from '../assets/images/projectma.jpg';
 
 
 // A reusable component for each team member card
@@ -36,18 +36,18 @@ const TeamSection = () => {
   // --- 2. Use the imported images in your data array ---
   const teamMembers = [
     {
-      name: "Kevin Asante",
-      title: "CEO",
+      name: "Kevin David Arko Asante",
+      title: "Founder and CEO",
       image: teamMember1, // Use the imported variable
     },
     {
-      name: "Stanley",
-      title: "Chief Architect",
+      name: "Kelly Bubune",
+      title: "Secretary",
       image: teamMember2, // Use the imported variable
     },
     {
-      name: "Eli",
-      title: "Employee of the Year",
+      name: "Ursula Knoings",
+      title: "Project Manager",
       image: teamMember3, // Use the imported variable
     },
   ];
