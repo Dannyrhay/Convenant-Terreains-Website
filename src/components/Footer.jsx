@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { animateScroll as scroll } from 'react-scroll';
 import { FaMapMarkerAlt, FaEnvelope, FaPhone, FaFacebookF, FaTwitter, FaInstagram, FaPinterest, FaArrowUp } from 'react-icons/fa';
 import companyLogo from '../assets/Navlogo.png';
+import { FaXTwitter } from 'react-icons/fa6';
 
 const FooterLink = ({ to, children }) => (
     <Link to={to} className="relative inline-block text-gray-300 hover:text-brand-gold transition-colors duration-300 group">
@@ -38,13 +39,13 @@ const Footer = () => {
             {/* Column 1: About */}
             <div className="space-y-4">
                <Link to="/">
-                <img src={companyLogo} alt="StanDav Group Logo" className="h-16 w-auto" />
+                <img src={companyLogo} alt="Covenntterrains Logo" className="h-16 w-auto" />
               </Link>
-              <p className="text-sm">The world's first and largest digital market for crypto collectibles and non-fungible (NFTs). Buy, sell, and discover exclusive digital items.</p>
+              <p className="text-sm"></p>
               <div className="space-y-2 text-sm">
-                <p className="flex items-start"><FaMapMarkerAlt className="w-4 h-4 mr-3 mt-1 flex-shrink-0 text-brand-gold" /> 86 Road Broklyn Street, 600 New York, USA</p>
-                <p className="flex items-center"><FaEnvelope className="w-4 h-4 mr-3 text-brand-gold" /> example@example.com</p>
-                <p className="flex items-center"><FaPhone className="w-4 h-4 mr-3 text-brand-gold" /> (+123) 456-7898</p>
+                <p className="flex items-center"><FaMapMarkerAlt className="w-4 h-4 mr-3 text-brand-gold" />Accra, Ghana</p>
+                <p className="flex items-center"><FaEnvelope className="w-4 h-4 mr-3 text-brand-gold" />Covenntterrains@gmail.com</p>
+                <p className="flex items-center"><FaPhone className="w-4 h-4 mr-3 text-brand-gold" /> (+233) 560477622</p>
               </div>
             </div>
 
@@ -65,7 +66,7 @@ const Footer = () => {
               <ul className="space-y-3 text-sm">
                 <li><FooterLink to="/Listings">Property on sale</FooterLink></li>
                 <li><FooterLink to="/about">Team member</FooterLink></li>
-                <li><FooterLink to="/services">Offices for Buy</FooterLink></li>
+                <li><FooterLink to="/contact">Offices for Buy</FooterLink></li>
                 <li><FooterLink to="/terms">Terms of use</FooterLink></li>
                 <li><FooterLink to="/services">Offices for Rent</FooterLink></li>
               </ul>
@@ -87,9 +88,8 @@ const Footer = () => {
                 </div>
               <div className="flex space-x-4 mt-6">
                 <a href="https://facebook.com" className="text-gray-400 hover:text-white"><FaFacebookF /></a>
-                <a href="https://twitter.com" className="text-gray-400 hover:text-white"><FaTwitter /></a>
+                <a href="https://twitter.com" className="text-gray-400 hover:text-white"><FaXTwitter /></a>
                 <a href="https://instagram.com" className="text-gray-400 hover:text-white"><FaInstagram /></a>
-                <a href="https://pinterest.com" className="text-gray-400 hover:text-white"><FaPinterest /></a>
               </div>
             </div>
           </div>
@@ -108,7 +108,7 @@ const Footer = () => {
       {showScroll && (
         <button
           onClick={scrollToTop}
-          className="fixed bottom-10 right-10 bg-brand-gold text-white w-12 h-12 rounded-full flex items-center justify-center shadow-lg hover:opacity-90 transition-all duration-300 z-50"
+          className="fixed bottom-10 right-10 bg-brand-gold text-shadow-blue-600 w-12 h-12 rounded-full flex items-center justify-center shadow-lg hover:opacity-90 transition-all duration-300 z-50"
         >
           <FaArrowUp className="w-6 h-6" />
         </button>

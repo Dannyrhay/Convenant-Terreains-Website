@@ -1,7 +1,7 @@
 import React from 'react';
 import HeroSlider from '../components/HeroSlider';
 import MapSection from '../components/MapSection';
-import contactHeroImage from '../assets/images/contactus2.jpg';
+import contactHeroImage from '../assets/images/contactus3.jpg';
 
 const Contact = () => {
   const contactSlide = [

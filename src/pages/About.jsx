@@ -94,11 +94,11 @@ const About = () => {
               <p className="text-sm font-semibold text-amber-600 uppercase tracking-wider mb-2">Connect with us</p>
               <h2 className="text-3xl font-bold text-gray-800 mb-6">Discover Our Journey So Far</h2>
               <p className="text-gray-600 mb-6">
-                Founded in 2014, StanDav Company began with a simple mission: to revolutionize the real estate experience in Ghana and beyond. We saw a need for a client-focused agency that combined deep local expertise with a global perspective, built on a foundation of trust and innovation.
+                Founded in 2022, Covenntterrains began with a simple mission: to revolutionize the real estate experience in Ghana and beyond. We saw a need for a client-focused agency that combined deep local expertise with a global perspective, built on a foundation of trust and innovation.
               </p>
               <ul className="space-y-4">
-                  <li className="flex items-center"><CheckIcon /> Over 600 successful projects completed.</li>
-                  <li className="flex items-center"><CheckIcon /> 10+ years of industry-leading experience.</li>
+                  <li className="flex items-center"><CheckIcon /> Over 15 successful projects completed.</li>
+                  <li className="flex items-center"><CheckIcon /> 3+ years of industry-leading experience.</li>
               </ul>
             </div>
           </div>
