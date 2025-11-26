@@ -1,15 +1,15 @@
 import React from 'react';
 
 // --- 1. Import your local images from the assets folder ---
-import teamMember1 from '../assets/images/CEO.jpg';
+import teamMember1 from '../assets/images/CEO2.jpeg';
 import teamMember2 from '../assets/images/e1.jpg';
-import teamMember3 from '../assets/images/projectma.jpg';
+import teamMember3 from '../assets/images/projectMan.jpeg';
 
 
 // A reusable component for each team member card
 const TeamMemberCard = ({ image, name, title }) => {
   return (
-    <div className="relative rounded-lg overflow-hidden shadow-lg group h-96">
+    <div className="relative rounded-lg overflow-hidden shadow-lg group h-99">
       {/* Background Image */}
       <img
         src={image}
@@ -18,7 +18,6 @@ const TeamMemberCard = ({ image, name, title }) => {
         // The onError fallback is still good practice, just in case.
         onError={(e) => { e.target.onerror = null; e.target.src = `https://placehold.co/600x800/cccccc/ffffff?text=Image+Not+Found`; }}
       />
-
       {/* Gradient Overlay for Text Readability */}
       <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
 
@@ -36,7 +35,7 @@ const TeamSection = () => {
   // --- 2. Use the imported images in your data array ---
   const teamMembers = [
     {
-      name: "Kevin David Arko Asante",
+      name: "Kevin David Asante",
       title: "Founder and CEO",
       image: teamMember1, // Use the imported variable
     },

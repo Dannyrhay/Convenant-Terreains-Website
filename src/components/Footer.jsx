@@ -35,7 +35,7 @@ const Footer = () => {
     <>
       <footer className="bg-slate-900 text-gray-300 pt-16 pb-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
             {/* Column 1: About */}
             <div className="space-y-4">
                <Link to="/">
@@ -74,19 +74,7 @@ const Footer = () => {
 
             {/* Column 4: Newsletter */}
             <div>
-              <h3 className="text-lg font-semibold text-white mb-4">Newsletter</h3>
-              <p className="text-sm mb-4">Subscribe to our newsletter to get the latest updates.</p>
-              <form>
-                <div className="flex">
-                  <input type="email" placeholder="Enter Email Address" className="w-full px-4 py-2 text-gray-800 bg-gray-100 rounded-l-md focus:outline-none focus:ring-2 focus:ring-brand-gold" />
-                  <button type="submit" className="bg-brand-gold text-white px-4 py-2 rounded-r-md hover:opacity-90 transition-colors">Subscribe</button>
-                </div>
-              </form>
-               <div className="flex items-center mt-4">
-                  <input type="checkbox" id="terms" className="h-4 w-4 text-brand-gold focus:ring-brand-gold border-gray-300 rounded" />
-                  <label htmlFor="terms" className="ml-2 block text-sm text-gray-400">I agree to all terms and policies</label>
-                </div>
-              <div className="flex space-x-4 mt-6">
+              <div className="flex items-center space-x-4 mt-45">
                 <a href="https://facebook.com" className="text-gray-400 hover:text-white"><FaFacebookF /></a>
                 <a href="https://twitter.com" className="text-gray-400 hover:text-white"><FaXTwitter /></a>
                 <a href="https://instagram.com" className="text-gray-400 hover:text-white"><FaInstagram /></a>
@@ -94,12 +82,8 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="mt-12 border-t border-gray-700 pt-8 flex flex-col md:flex-row justify-between items-center text-sm">
+          <div className="mt-12 border-t border-gray-700 pt-8 flex flex-col md:flex-row justify-center items-center text-sm">
             <p>&copy; {new Date().getFullYear()} Convenant Terreains. All Rights Reserved.</p>
-            <div className="flex space-x-4">
-              <FooterLink to="/terms">Terms of Use</FooterLink>
-              <FooterLink to="/privacy">Privacy Policy</FooterLink>
-            </div>
           </div>
         </div>
       </footer>

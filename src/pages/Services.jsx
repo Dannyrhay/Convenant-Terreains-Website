@@ -63,11 +63,11 @@ const Services = () => {
     <div>
       <HeroSlider slides={servicesSlide} />
 
-      <section className="py-16 sm:py-24 bg-slate-900">
+      <section className="py-16 sm:py-24 bg-white">
         <div className="container mx-auto px-4">
             <div className="text-center mb-12">
-                <h2 className="text-3xl font-bold text-white">What We Offer</h2>
-                <p className="text-gray-300 mt-2">From brokerage to construction, we provide a comprehensive suite of services.</p>
+                <h2 className="text-3xl font-bold text-black">What We Offer</h2>
+                <p className="text-slate-900 mt-2">From brokerage to construction, we provide a comprehensive suite of services.</p>
             </div>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
@@ -76,13 +76,13 @@ const Services = () => {
               {servicesList.map((service, index) => (
                 <div
                   key={index}
-                  className="bg-slate-800 p-6 rounded-lg shadow-lg transform
+                  className="bg-white p-6 rounded-lg shadow-lg transform
                              transition-all duration-300 ease-in-out
-                             hover:-translate-y-2 hover:bg-slate-700 hover:shadow-xl"
+                             hover:-translate-y-2 hover:bg-slate-200 hover:shadow-xl"
                 >
                     {service.icon}
-                    <h3 className="text-xl font-bold mb-2 text-white">{service.title}</h3>
-                    <p className="text-gray-400">{service.description}</p>
+                    <h3 className="text-xl font-bold mb-2 text-black">{service.title}</h3>
+                    <p className="text-slate-900">{service.description}</p>
                 </div>
               ))}
               {/* --- MODIFICATION END --- */}

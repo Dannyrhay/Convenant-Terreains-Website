@@ -7,9 +7,9 @@ import { NavLink } from "react-router-dom";
 
 // --- NEW: Import local assets ---
 // Make sure you have these files in the correct folders
-import heroVideo from '../assets/videos/CarScene.mp4';
-import homeImage1 from '../assets/images/Hero5.jpg';
-import homeImage2 from '../assets/images/slider3.jpg';
+import heroVideo from '../assets/videos/Site.mp4';
+import homeImage1 from '../assets/images/pro2.jpg';
+import homeImage2 from '../assets/images/pro3.jpg';
 
 import sunlitImage from '../assets/images/sunlit-estates.jpg';
 import whiteOakImage from '../assets/images/white-oak-homes.jpg';
